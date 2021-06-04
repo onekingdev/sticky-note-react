@@ -1,0 +1,36 @@
+.Headerbar {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  height: 40px;
+  width: 100%;
+  background-color: #ccc;
+}
+.Logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.MenuIcons {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  gap: 30px;
+}
+.userpic {
+  height: 36px;
+  width: 36px;
+  background-color: #aaa;
+  border-radius: 50%;
+}
+@media (min-width: 1100px) {
+  .Headerbar {
+    justify-content: space-around;
+  }
+  .Logo {
+    font-size: xx-large;
+  }
+}

@@ -1,0 +1,66 @@
+.sticky {
+  display: inline-block;
+  background: #fff740;
+  text-align: center;
+  left: 0;
+  width: 200px;
+  min-height: 150px;
+  margin: -10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", "cursive";
+  font-size: 14px;
+  color: #000;
+  align-items: left;
+  justify-content: space-evenly;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 10px;
+  border-radius: 15px;
+  position: relative;
+}
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+.sticky:before,
+.sticky:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  right: 0;
+}
+.sticky:hover {
+  rotate: 0deg;
+}
+.note {
+  min-height: 122px;
+  text-align: left;
+}
+.deleteIcon {
+  font-size: 20px;
+}
+.bi-palette {
+  font-size: 18px;
+  padding-left: 5px;
+}
+.starIcon {
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  top: 3px;
+  margin-right: 10px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown, .dropdown:hover{
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -6px;
+}
